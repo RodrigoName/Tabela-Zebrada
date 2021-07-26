@@ -1,0 +1,35 @@
+body {
+
+    background-color: black;
+    margin: 0px;
+    
+   
+}
+
+table {
+    border:1px solid silver;
+    }
+    th {
+    background-color: #ccc;
+    }
+    tbody tr:nth-child(even) {
+    background-color: #abe113;
+    
+      
+}
+
+div {
+
+    display: flex;
+    background-color: white;
+    width: 220px;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+    
+        
+
+}
